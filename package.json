@@ -1,0 +1,25 @@
+{
+  "name": "csgoempire-bidding-bot-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "globals": "^16.0.0"
+  },
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "mssql": "^11.0.1",
+    "socket.io-client": "^4.8.1",
+    "winston": "^3.17.0"
+  }
+}
